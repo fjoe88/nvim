@@ -28,6 +28,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'joshdick/onedark.vim'
 
 Plug 'tpope/vim-surround'
+
 " Commenting
 Plug 'tpope/vim-commentary'
 
@@ -47,4 +48,7 @@ Plug 'mhinz/vim-startify'
 Plug 'voldikss/vim-floaterm'
 
 Plug 'arcticicestudio/nord-vim'
+
+Plug 'rbgrouleff/bclose.vim'
+
 call plug#end()
