@@ -33,7 +33,7 @@ Plug 'tpope/vim-commentary'
 
 " Stable version of coc
 " Make sure to install node.js
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'francoiscabrol/ranger.vim'
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
@@ -41,10 +41,16 @@ Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 Plug 'justinmk/vim-sneak'
 
 Plug 'liuchengxu/vim-which-key'
+Plug 'AckslD/nvim-whichkey-setup.lua'
 
 Plug 'mhinz/vim-startify'
 
 Plug 'voldikss/vim-floaterm'
 
 Plug 'arcticicestudio/nord-vim'
+
+"lsp
+Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/nvim-compe'
+
 call plug#end()
