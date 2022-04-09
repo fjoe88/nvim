@@ -36,8 +36,11 @@ Plug 'tpope/vim-commentary'
 " Make sure to install node.js
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" bclose is a ranger dependency when using neovim
+Plug 'rbgrouleff/bclose.vim'
+
 Plug 'francoiscabrol/ranger.vim'
-Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+"	Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
 Plug 'justinmk/vim-sneak'
 
@@ -49,6 +52,5 @@ Plug 'voldikss/vim-floaterm'
 
 Plug 'arcticicestudio/nord-vim'
 
-Plug 'rbgrouleff/bclose.vim'
-
+Plug 'terrortylor/nvim-comment'
 call plug#end()
